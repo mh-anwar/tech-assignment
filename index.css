@@ -61,6 +61,8 @@ body {
     justify-items: center;
     width: 80%;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bar {
