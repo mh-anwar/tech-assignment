@@ -1,9 +1,10 @@
 html {
     width: 100%;
-    background-color: yellow;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
 }
 
 body {
@@ -16,24 +17,24 @@ body {
     width: 1056px !important;
     border: 40px solid black;
     border-radius: 30px;
-    background-color: wheat;
+    background-color: rgb(215, 86, 144);
 }
 
 .quote {
     color: white;
     font-size: 70px;
-    background-color: #234e79;
+    background-color: rgb(158, 10, 10);
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom-left-radius: 0.3em;
-    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
     width: 100%;
-    height: fit-content;
+    height: 150px;
+    text-align: center;
 }
 
 .quote q {
-    color: white;
     font-size: 70px;
 }
 
@@ -45,25 +46,27 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto 1fr;
+    margin: auto;
+    padding: 0.3em;
     width: 100%;
 }
 
 .main div {
-    background-color: #234e79;
+    background-color: rgb(205, 81, 137);
     border-radius: 30em;
     margin: 0.5em;
     padding: 0.3em;
-    display: flex;
-    justify-content: center;
+    display: grid;
     align-items: center;
-    align-content: center;
+    justify-items: center;
     width: 80%;
+    box-sizing: border-box;
 }
 
 .bar {
-    width: 100%;
-    height: 50px;
-    background-color: black;
+    height: 20px;
+    background-color: rgb(43, 39, 39);
+    padding: 1em;
     color: white;
     display: flex;
     flex-direction: row;
@@ -72,14 +75,35 @@ body {
 }
 
 .bar div {
+    font-size: 20px;
+    flex: 50%;
+}
+
+.bar-icons {
+    font-size: 28px;
     flex: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.bar-icons span {
+    font-size: 28px;
+    padding: 0.3em;
+    align-items: baseline;
 }
 
 .bottom {
+    background-color: black;
+    height: fit-content;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
+    color: white;
+}
+
+.bottom span {
+    font-size: 40px;
 }
