@@ -1,19 +1,71 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    align-items: center;
+
+}
+
+.quote {
+    color: white;
+    font-size: 70px;
+    min-width: 100%;
+    min-height: 20%;
+    background-color: #234e79;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+.quote q {
+    color: white;
+    font-size: 70px;
+}
+
+.quote h2 {
+    font-size: 30px;
 }
 
 .ipad {
     flex-direction: column;
+    min-width: 60%;
+    border: 16px solid black;
+    border-radius: 0.8em;
+    min-height: 80%;
 }
 
-.top-bar {
+.bar div {
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+
+.bar {
     width: 100%;
     max-height: 30px !important;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em;
+}
+
+.bottom-bar {
+    width: 100%;
+    max-height: 30px !important;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em;
 
 }
