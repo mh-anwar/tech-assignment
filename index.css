@@ -5,6 +5,14 @@ body {
 
 }
 
+.ipad {
+    flex-direction: column;
+    min-width: 60%;
+    border: 16px solid black;
+    border-radius: 0.8em;
+    min-height: 80%;
+}
+
 .quote {
     color: white;
     font-size: 70px;
@@ -27,23 +35,25 @@ body {
     font-size: 30px;
 }
 
-.ipad {
-    flex-direction: column;
-    min-width: 60%;
-    border: 16px solid black;
-    border-radius: 0.8em;
-    min-height: 80%;
-}
-
-.bar div {
-    flex: 50%;
+.main {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-
+    flex-wrap: wrap;
+    padding: 1em;
+    width: 100%;
 }
 
-
+.main div {
+    background-color: #234e79;
+    border-radius: 30em;
+    margin: 0.3em;
+    padding: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40%
+}
 
 .bar {
     width: 100%;
@@ -57,15 +67,14 @@ body {
     padding: 0.3em;
 }
 
-.bottom-bar {
-    width: 100%;
-    max-height: 30px !important;
-    background-color: black;
-    color: white;
+.bar div {
+    flex: 50%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0.3em;
+    justify-content: space-evenly;
 
+}
+
+.bottom-bar {
+    justify-content: center;
 }
