@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.ipad {
+    flex-direction: column;
+}
+
+.top-bar {
+    width: 100%;
+    max-height: 30px !important;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
