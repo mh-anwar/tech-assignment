@@ -17,13 +17,13 @@ body {
     width: 1056px !important;
     border: 40px solid black;
     border-radius: 30px;
-    background-color: rgb(215, 86, 144);
+    background-color: #2e7ece;
 }
 
 .quote {
     color: white;
     font-size: 70px;
-    background-color: rgb(158, 10, 10);
+    background-color: #234e79;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .main div {
-    background-color: rgb(205, 81, 137);
+    background-color: #8eb5dd;
     border-radius: 30em;
     margin: 0.5em;
     padding: 0.3em;
