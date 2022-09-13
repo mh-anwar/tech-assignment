@@ -52,14 +52,15 @@ body {
 }
 
 .main div {
-    background-color: #8eb5dd;
+    background-color: #8eb6dd67;
     border-radius: 30em;
     margin: 0.5em;
     padding: 0.3em;
     display: grid;
     align-items: center;
     justify-items: center;
-    width: 80%;
+    width: 250px;
+    height: 180px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
